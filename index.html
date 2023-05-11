@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type="text/css" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <header class = "topnav">
+        <nav class="navbar navbar-expand-lg fixed-top navbarScroll"> 
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+                <a class ="nav-link" href ="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-item" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#resume">Resume</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>        
+    </header>
+
+    <main>
+            <section class="bgimage" id="home">
+                <div class="container-fluid">
+                    <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                        <img class="bgimage" href="/Users/marenchristensen/bootcamp/module-2-HW/Module-2-HW/PXL_20230507_001001665.jpg">
+                        <h2 class="hero_title">Hi, i'm MJ</h2>
+                        <p class="hero_desc">I am a professional developer in Houston, TX</p>
+                        <div class="col-lg-4">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+    </main>    
+    
+</body>
+<!-- about section-->
+<section id="about">
+    <div class="container mt-4 pt-4">
+        <h1 class="text-center">About Me</h1>
+        <div class="row mt-4">
+            <div class="col-lg-8">
+                <img src="/Users/marenchristensen/bootcamp/module-2-HW/Module-2-HW/PXL_20230506_010824696.PORTRAIT-01.jpg" class= "imageAboutPage" alt="black and white profile picture">
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Name: MJ Christensen</li>
+                            <li>Occupation: Web Developer</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- services section-->
+<section id="services">
+    <div class="container">
+        <h1 class="text-center">Work</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-clock"></i>
+                        <h4 class="card-title mt-3">Website Development HTML</h4>
+                        <p class="card-text mt-3">Some sample content to display use of HTML structures.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-layer-group'></i>
+                        <h4 class="card-title mt-3">Website Design CSS</h4>
+                        <p class="card-text mt-3">Some sample CSS content.
+                        </p>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='far servicesIcon fa-check-circle'></i>
+                        <h4 class="card-title mt-3">Website Deployment-GitHub</h4>
+                        <p class="card-text mt-3"> Sample use of GitHub.
+                        <link><a href="file:///Users/marenchristensen/Desktop/bootcamp/projects/Module-1-HW/index.html" ></a></link>
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-shield-alt'></i>
+                        <h4 class="card-title mt-3">JavaScript</h4>
+                        <p class="card-text mt-3"> Sample work in JavaScript.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-wrench'></i>
+                        <h4 class="card-title mt-3">React</h4>
+                        <p class="card-text mt-3">Some sample using React.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+</section>
+<!-- contact section-->
+<section id="contact">
+    <div class="container mt-3 contactContent">
+        <h1 class="text-center">Contact Me</h1>
+            <div class="col-lg-6">
+                <!-- form fields -->
+                <form>
+                    <input type="text" class="form-control form-control-lg" placeholder="Name">
+                    <input type="email" class="form-control mt-3" placeholder="Email">
+                    <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                    </div>
+                </form>
+                <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                
+            </div>
+
+        </div>
+    </div>
+</section>
+</html>
+ <!-- footer section-->
+ <footer id="footer">
+    <div class="container-fluid">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            
+        </div>
+    </div>
+</footer>
