@@ -10,6 +10,11 @@ The site will be deployed through the GitHub link: https://github.com/mj470/Modu
 # Usage
 This site will be used as a reference point to add future work to my professsional portfolio. As I learn more design elements I will add them to create a more functional space. This should have several different working links to future projects I complete. This site will also function as a way to contact me for furutre jobs. 
 
+![Alt text](assets/Screenshot%202023-05-11%20at%206.24.14%20PM.png)
+
+![](assets/Screenshot%202023-05-11%20at%206.24.26%20PM.png)
+
+![Alt text](assets/Screenshot%202023-05-11%20at%206.24.14%20PM.png)
 # Credits 
 I used several different HTML and CSS sites to get ideas and reference points for how to create sections. 
 

@@ -71,10 +71,7 @@ position: relative;
 }
 /* about section image css */
 .imageAboutPage {
-    height: auto;
-    max-width: 100%;
-    flex-wrap: wrap;
-    position: relative;
+   
 }
 /* services section css */
 *{ margin: 0; padding: 0; box-sizing: border-box; }
@@ -85,6 +82,7 @@ body{ color: rgba(0,0,0,.87); font-size: 1rem; line-height: 1.5;
 .wrapper > *{ margin: 0 1rem 2rem; }
 
 .servicesText.card {
+    object-fit: contain;
     height: 280px;
     cursor: pointer;
   }
@@ -92,7 +90,14 @@ body{ color: rgba(0,0,0,.87); font-size: 1rem; line-height: 1.5;
     font-size: 36px;
     text-align: center;
     width: 100%;
+   
 }
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+  }
+  
 .card-title {
     text-align: center;
 }
